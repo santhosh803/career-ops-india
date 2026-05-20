@@ -57,3 +57,46 @@ Compact proof points from portfolio projects. Read by career-ops at evaluation t
 - Demonstrates agentic AI, tool use, local LLM inference, SQL reasoning, and enterprise analytics workflows.
 - Strong fit for AI analyst tools, enterprise copilots, internal tools, and public-facing AI products.
 - Shows ability to convert business questions into safe, structured data workflows.
+
+---
+
+## Business Insights 360
+
+**Hero metrics:** Global hardware sales analytics driving a projected 10% revenue acceleration.
+
+**Architecture:** MySQL database -> Power BI dimensional data model -> DAX measures -> dynamic multi-department dashboards (Finance, Sales, Marketing, Supply Chain, Executive).
+
+**Key decisions:**
+- Designed a star schema to optimize query performance and reporting speed across millions of transactions.
+- Developed DAX metrics to track critical SaaS-like KPIs (gross margin, net sales, forecast accuracy).
+
+**Proof points:**
+- Shows strong capabilities in data modeling, business intelligence, and translating raw data into strategic executive dashboards.
+
+---
+
+## Adhoc Insights Analysis in Consumer Goods
+
+**Hero metrics:** Solved 10+ complex business requests slicing FY2020 & FY2021 transactional records.
+
+**Architecture:** MySQL database -> SQL scripting (CTEs, window functions, subqueries, group by aggregates) -> CSV data extraction.
+
+**Key decisions:**
+- Structured clean, modular SQL queries to answer high-priority ad-hoc business questions regarding sales volume and margin growth by customer segment.
+
+**Proof points:**
+- Demonstrates robust SQL competency, database schema understanding, and capability to build data sources for AI agents (e.g., SQL-speaking bots).
+
+---
+
+## IPL Analysis (2021-2023) & AtliQ Mart FMCG Promotion Analysis
+
+**Hero metrics:** Multi-dimensional Power BI visualizations for sports performance and retail campaign ROI.
+
+**Architecture:** CSV / Excel transaction databases -> Power BI data transformation & visualization dashboards.
+
+**Key decisions:**
+- Designed tailored visualization layouts mapping specific domain KPIs (sports stats, promotional incremental sales vs discount costs).
+
+**Proof points:**
+- Shows versatile domain data analysis capabilities, visual storytelling, and dashboard usability.

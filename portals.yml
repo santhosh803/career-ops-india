@@ -1,0 +1,267 @@
+title_filter:
+  positive:
+    - "AI"
+    - "ML"
+    - "LLM"
+    - "Generative AI"
+    - "GenAI"
+    - "Machine Learning"
+    - "Agent"
+    - "Agentic"
+    - "NLP"
+    - "Computer Vision"
+    - "Deep Learning"
+    - "Data Scientist"
+    - "Applied AI"
+    - "RAG"
+  negative:
+    - "Intern"
+    - "Junior"
+    - "Student"
+    - "Trainee"
+    - ".NET"
+    - "Java"
+    - "PHP"
+    - "iOS"
+    - "Android"
+    - "Frontend"
+    - "UI/UX"
+    - "Sales"
+    - "Marketing"
+    - "HR"
+
+location_filter:
+  allow:
+    - "Bengaluru"
+    - "Bangalore"
+    - "Chennai"
+    - "Hyderabad"
+    - "Remote"
+    - "India"
+  block:
+    - "USA"
+    - "United States"
+    - "UK"
+    - "London"
+    - "Europe"
+    - "Germany"
+    - "France"
+
+search_queries:
+  # Instahyre, Wellfound (AngelList), LinkedIn, Naukri queries (fallback for websearch)
+  - 'site:instahyre.com/job "AI Engineer" OR "Machine Learning" OR "LLM" (Bengaluru OR Chennai OR Hyderabad OR Remote)'
+  - 'site:wellfound.com/job "AI Engineer" OR "Machine Learning" OR "LLM" (Bengaluru OR Chennai OR Hyderabad OR Remote)'
+
+tracked_companies:
+  # ==========================================
+  # Bengaluru
+  # ==========================================
+  - name: Krutrim
+    careers_url: https://krutrim.com/careers
+    scan_method: websearch
+    scan_query: 'site:krutrim.com/careers'
+    notes: "Bengaluru. Foundational LLMs. Unicorn"
+    enabled: true
+
+  - name: Yellow.ai
+    careers_url: https://jobs.lever.co/yellow
+    notes: "Bengaluru. Agentic Conversational AI. Growth-stage"
+    enabled: true
+
+  - name: Netradyne
+    careers_url: https://netradyne.com/careers
+    scan_method: websearch
+    scan_query: 'site:netradyne.com/careers'
+    notes: "Bengaluru. Computer Vision / Fleet AI. Unicorn"
+    enabled: true
+
+  - name: Neysa
+    careers_url: https://neysa.in/careers
+    scan_method: websearch
+    scan_query: 'site:neysa.in/careers'
+    notes: "Bengaluru. AI Infrastructure / GPU Cloud. Growth"
+    enabled: true
+
+  - name: Bolna AI
+    careers_url: https://bolna.dev/careers
+    scan_method: websearch
+    scan_query: 'site:bolna.dev/careers OR site:wellfound.com/company/bolna'
+    notes: "Bengaluru. Voice AI Agents. YC-backed"
+    enabled: true
+
+  - name: Atomicwork
+    careers_url: https://atomicwork.com/careers
+    scan_method: websearch
+    scan_query: 'site:atomicwork.com/careers'
+    notes: "Bengaluru. Agentic ITSM / ESM. Series A"
+    enabled: true
+
+  - name: Leena AI
+    careers_url: https://leena.ai/careers
+    scan_method: websearch
+    scan_query: 'site:leena.ai/careers'
+    notes: "Bengaluru. HR AI Automation. Series B"
+    enabled: true
+
+  - name: HyperVerge
+    careers_url: https://hyperverge.co/careers
+    scan_method: websearch
+    scan_query: 'site:hyperverge.co/careers'
+    notes: "Bengaluru. AI Identity / KYC / Lending. Series B"
+    enabled: true
+
+  - name: Vue.ai
+    careers_url: https://vue.ai/careers
+    scan_method: websearch
+    scan_query: 'site:vue.ai/careers'
+    notes: "Bengaluru. Retail AI / Visual AI. Series B"
+    enabled: true
+
+  - name: Locus.sh
+    careers_url: https://locus.sh/careers
+    scan_method: websearch
+    scan_query: 'site:locus.sh/careers'
+    notes: "Bengaluru. AI Logistics Optimization. Series C"
+    enabled: true
+
+  - name: Spotdraft
+    careers_url: https://spotdraft.com/careers
+    scan_method: websearch
+    scan_query: 'site:spotdraft.com/careers'
+    notes: "Bengaluru. AI Legal / Contract Management. Series A"
+    enabled: true
+
+  - name: SciSpace
+    careers_url: https://typeset.io/careers
+    scan_method: websearch
+    scan_query: 'site:typeset.io/careers'
+    notes: "Bengaluru. AI Research Platform. Series A"
+    enabled: true
+
+  - name: Ema
+    careers_url: https://ema.co/careers
+    scan_method: websearch
+    scan_query: 'site:ema.co/careers'
+    notes: "Bengaluru. Enterprise AI Agents. Series A"
+    enabled: true
+
+  - name: Floworks
+    careers_url: https://floworks.ai/careers
+    scan_method: websearch
+    scan_query: 'site:floworks.ai/careers OR site:wellfound.com/company/floworks'
+    notes: "Bengaluru. Sales AI / CRM Automation. Seed/YC"
+    enabled: true
+
+  - name: Ai Palette
+    careers_url: https://aipalette.com/careers
+    scan_method: websearch
+    scan_query: 'site:aipalette.com/careers'
+    notes: "Bengaluru. Consumer AI / Product Intelligence. Series A"
+    enabled: true
+
+  - name: Reverie
+    careers_url: https://reverieinc.com/careers
+    scan_method: websearch
+    scan_query: 'site:reverieinc.com/careers'
+    notes: "Bengaluru. Indic Language AI / NLP. Strategic"
+    enabled: true
+
+  - name: Beatoven.ai
+    careers_url: https://beatoven.ai/careers
+    scan_method: websearch
+    scan_query: 'site:beatoven.ai/careers'
+    notes: "Bengaluru. Generative AI for Music. Seed"
+    enabled: true
+
+  - name: Actyv.ai
+    careers_url: https://actyv.ai/careers
+    scan_method: websearch
+    scan_query: 'site:actyv.ai/careers'
+    notes: "Bengaluru. B2B AI / Supply Chain Finance. Series A"
+    enabled: true
+
+  # ==========================================
+  # Hyderabad
+  # ==========================================
+  - name: Darwinbox
+    careers_url: https://job-boards.greenhouse.io/darwinbox
+    api: https://boards-api.greenhouse.io/v1/boards/darwinbox/jobs
+    notes: "Hyderabad. AI HR Platform. Unicorn"
+    enabled: true
+
+  - name: WhatFix
+    careers_url: https://jobs.lever.co/whatfix
+    notes: "Hyderabad. AI Digital Adoption Platform. Series D"
+    enabled: true
+
+  - name: Ozonetel
+    careers_url: https://ozonetel.com/careers
+    scan_method: websearch
+    scan_query: 'site:ozonetel.com/careers'
+    notes: "Hyderabad. AI Contact Center / CCaaS. Series B"
+    enabled: true
+
+  - name: Nference
+    careers_url: https://nference.ai/careers
+    scan_method: websearch
+    scan_query: 'site:nference.ai/careers'
+    notes: "Hyderabad. Biomedical AI / Life Sciences. Series C"
+    enabled: true
+
+  - name: HealthifyMe
+    careers_url: https://healthifyme.com/careers
+    scan_method: websearch
+    scan_query: 'site:healthifyme.com/careers'
+    notes: "Hyderabad. AI Health & Nutrition. Series C"
+    enabled: true
+
+  - name: Fission Labs
+    careers_url: https://fissionlabs.com/careers
+    scan_method: websearch
+    scan_query: 'site:fissionlabs.com/careers'
+    notes: "Hyderabad. GenAI / Data Engineering. Mid-size product"
+    enabled: true
+
+  - name: Kanerika
+    careers_url: https://kanerika.com/careers
+    scan_method: websearch
+    scan_query: 'site:kanerika.com/careers'
+    notes: "Hyderabad. AI Automation / Data Platform. Growth"
+    enabled: true
+
+  # ==========================================
+  # Chennai
+  # ==========================================
+  - name: Uniphore
+    careers_url: https://uniphore.com/careers
+    scan_method: websearch
+    scan_query: 'site:uniphore.com/careers'
+    notes: "Chennai. Conversational AI / Voice Analytics. Unicorn"
+    enabled: true
+
+  - name: Freshworks
+    careers_url: https://job-boards.greenhouse.io/freshworks
+    api: https://boards-api.greenhouse.io/v1/boards/freshworks/jobs
+    notes: "Chennai. AI-powered CRM / ITSM SaaS. Nasdaq-listed"
+    enabled: true
+
+  - name: Kissflow
+    careers_url: https://kissflow.com/careers
+    scan_method: websearch
+    scan_query: 'site:kissflow.com/careers'
+    notes: "Chennai. AI Low-Code Workflow Automation. Series B"
+    enabled: true
+
+  - name: Arya.ai
+    careers_url: https://arya.ai/careers
+    scan_method: websearch
+    scan_query: 'site:arya.ai/careers'
+    notes: "Chennai/Hyderabad. BFSI AI / Credit & Fraud. Series A"
+    enabled: true
+
+  - name: SigTuple
+    careers_url: https://sigtuple.com/careers
+    scan_method: websearch
+    scan_query: 'site:sigtuple.com/careers'
+    notes: "Bengaluru/Chennai. AI Medical Diagnostics. Series B"
+    enabled: true

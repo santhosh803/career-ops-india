@@ -1,0 +1,43 @@
+# Candidate Profile Configuration
+
+candidate:
+  full_name: "Santhoshkumar MS"
+  email: "santhoshkumar.ms@example.com"
+  location: "Bengaluru, India"
+  linkedin: "https://www.linkedin.com/in/santhoshkumar-ms/"
+  website: "https://santhosh803.github.io/santhoshkumar_ms-github.io/"
+
+target_roles:
+  primary:
+    - "AI/ML Engineer"
+    - "Applied AI Engineer"
+    - "Gen AI Engineer"
+    - "LLM Engineer"
+  archetypes:
+    - name: "AI/ML Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Applied AI Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Gen AI Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "LLM Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+
+compensation:
+  target_range: "₹7 LPA - ₹30+ LPA"
+  currency: "INR"
+  minimum: "₹7 LPA"
+  location_flexibility: "1. Bengaluru, 2. Chennai, 3. Hyderabad"
+
+location:
+  country: "India"
+  city: "Bengaluru"
+  timezone: "IST (UTC+5:30)"
+  visa_status: "Indian citizen, no sponsorship needed"
+
+language:
+  modes_dir: "modes"
